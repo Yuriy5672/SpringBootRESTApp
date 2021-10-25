@@ -1,6 +1,7 @@
 package com.app;
 
 import com.app.service.CsvSuggestionWriter;
+import com.app.service.WebappAPIClient;
 import com.google.common.collect.ImmutableList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -14,6 +15,8 @@ import static java.util.stream.Collectors.toList;
 public class Application implements CommandLineRunner {
 	@Autowired
 	private CsvSuggestionWriter csvSuggestionWriter;
+	@Autowired
+	private WebappAPIClient webappAPIClient;
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
