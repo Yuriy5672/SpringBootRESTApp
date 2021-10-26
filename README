@@ -1,1 +1,3 @@
-src/main/resources/application.properties 'application.suggestionUrlTemplate' - takes the value passed in the REST request
+Description
+The application receives data via an http request and writes it to a csv file
+src/main/resources/application.properties 'application.suggestionUrlTemplate' - takes the value passed in the http request
