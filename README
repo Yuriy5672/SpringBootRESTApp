@@ -1,0 +1,1 @@
+src/main/resources/application.properties 'application.suggestionUrlTemplate' - takes the value passed in the REST request
